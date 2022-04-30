@@ -33,3 +33,7 @@
 - Python 3.6 64-bit 
 - 其他版本的 Python 在达芬奇18之前并不支持
 - 无需额外的库
+
+
+
+## [详细说明请见小黄灯公众号](https://mp.weixin.qq.com/s/lvEur-MiuF1o-9xkPxoVig)
