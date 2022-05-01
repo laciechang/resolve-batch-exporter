@@ -250,10 +250,9 @@ def error_dialog(msg):
                         "WindowFlags": {"SplashScreen" : True},
                         }, msg_main)
     msg_itm = msg_win.GetItems()
-    msg_geo = msg_itm["msginfo"].GetGeometry()
     width = 300 + len(msg)*5
     width = width if width > 200 else 200
-    msg_itm["err_msg"].Resize([msg_geo[2], 80])
+    msg_itm["err_msg"].Resize([width, 80])
     def _close(ev):
         disp.ExitLoop()
 
@@ -276,12 +275,13 @@ def success_dialog(folder):
 
     msg_win = disp.AddWindow({ 
                         "WindowTitle": "Batch Exporter", 
-                        "ID": "err_msg", 
+                        "ID": "success_msg", 
                         "WindowFlags": {"SplashScreen" : True},
                         }, msg_main)
     msg_itm = msg_win.GetItems()
-    width = 100 + len(msg)*5
-    msg_itm["err_msg"].Resize([width if width > 200 else 200, 80])
+    width = 300 + len(msg)*5
+    width = width if width > 200 else 200
+    msg_itm["success_msg"].Resize([width, 80])
     def _close(ev):
         disp.ExitLoop()
 
@@ -294,7 +294,7 @@ def success_dialog(folder):
             subprocess.Popen(["xdg-open", folder])
         disp.ExitLoop()
 
-    msg_win.On["err_msg"].Close = _close
+    msg_win.On["success_msg"].Close = _close
     msg_win.On["closeit"].Clicked = _close_and_open_folder
     msg_win.Show()
     disp.RunLoop()
