@@ -13,6 +13,7 @@ class Project():
         self.projects = self.project_manager.GetProjectListInCurrentFolder()
 
     def export_project(self, name, path, option=True):
+        self.project_manager.LoadProject(name)
         o = self.project_manager.ExportProject(name, path+str(name)+".drp", option)
 
     def current_timeline(self):
