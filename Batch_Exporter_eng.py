@@ -119,8 +119,8 @@ naming_group = ui.VGroup({"Spacing": 5, },[
 ])
 
 location_group = ui.HGroup({"Spacing": 5, "Weight": 3},[
-    ui.Button({"ID": OutputPick, "Text": "Pick location", "Weight": 0}),
-    ui.LineEdit({"ID": OutputPath, "PlaceholderText": "Export path"}),
+    ui.Button({"ID": OutputPick, "Text": "Location", "Weight": 0}),
+    ui.LineEdit({"ID": OutputPath, "PlaceholderText": "Target path"}),
 ])
 
 project_level_group = ui.HGroup({"Spacing": 5, "Weight": 0},[
