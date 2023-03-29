@@ -34,6 +34,7 @@
 - 其他版本的 Python 在达芬奇18之前并不支持
 - 无需额外的库
 
-
+support our projects:
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="zhanglaichi" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 
 ## [详细说明请见小黄灯公众号](https://mp.weixin.qq.com/s/lvEur-MiuF1o-9xkPxoVig)
