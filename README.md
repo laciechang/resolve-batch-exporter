@@ -1,6 +1,4 @@
-# resolve-batch-exporter
 批量导出达芬奇项目、时间线
-
 
 
 ## 安装
@@ -34,7 +32,5 @@
 - 其他版本的 Python 在达芬奇18之前并不支持
 - 无需额外的库
 
-support our projects:
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zhanglaichi)
 
 ## [详细说明请见小黄灯公众号](https://mp.weixin.qq.com/s/lvEur-MiuF1o-9xkPxoVig)
