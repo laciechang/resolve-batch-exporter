@@ -1,3 +1,14 @@
+# -*- coding:utf-8 -*-
+# Author: 张来吃
+# Version: 1.0.0
+# Contact: laciechang@163.com
+
+# -----------------------------------------------------
+# 本工具仅支持在达芬奇内运行 请将工具移至以下路径：
+# macOS: /Users/{USER}/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Edit
+# Windows: C:\Users\{USER}\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Edit
+# -----------------------------------------------------
+
 import os, subprocess, platform
 
 resolve = bmd.scriptapp('Resolve')
