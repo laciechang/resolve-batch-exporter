@@ -2,7 +2,7 @@
 
 # Intro
 Batch export/render timelines/projects in DaVinci Resolve.
-[!["Screenshot"](Batch_Exporter_Screenshot.png)]
+!["Screenshot"](Batch_Exporter_Screenshot.png)
 
 # Installation
 
