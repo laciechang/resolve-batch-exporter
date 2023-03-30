@@ -2,10 +2,10 @@
 
 # 简介
 批量导出达芬奇项目、时间线
+!["Screenshot"](Batch_Exporter_Screenshot.png)
 
 
-
-## 安装
+# 安装
 
 - 请将 *Batch_export.py* 拷贝至达芬奇指定的脚本存放目录下
   - macOS: /Users/{你的用户名}/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts
@@ -15,7 +15,7 @@
 - 在菜单：工作区(Workspace) > 脚本(Scripts) 中即可找到
 - 仅支持在达芬奇内使用，不支持在外部运行
 
-## 用法
+# 用法
 
 通过本工具，可批量地：
 
@@ -26,7 +26,7 @@
 - 将 *项目内* 的各个时间线，以指定的渲染预设，添加渲染任务至渲染队列
 - 同时可以实现 *多个项目x多个时间线* 
 
-## 需要
+# 需要
 
 - DaVinci Resolve 17 或更高版本
 - Python 3.6 64-bit 
@@ -34,4 +34,5 @@
 - 无需额外的库
 
 
-## [详细说明请见小黄灯公众号](https://mp.weixin.qq.com/s/lvEur-MiuF1o-9xkPxoVig)
+# [详细说明请见小黄灯公众号](https://mp.weixin.qq.com/s/lvEur-MiuF1o-9xkPxoVig)
+日常出没于微信公众号「后期暗房小黄灯」Bilibili ID「张来吃」
