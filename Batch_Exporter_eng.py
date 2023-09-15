@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # Author: 张来吃
-# Version: 1.0.0
+# Version: 1.0.1
 # Contact: laciechang@163.com
 
 # -----------------------------------------------------
@@ -40,10 +40,10 @@ class Project():
         else:
             self.current_timeline().Export(path + name, types)
 
-    def add_render_job(self, preset, path):
+    def add_render_job(self, preset, path, name):
         current_project = self.project_manager.GetCurrentProject()
         current_project.LoadRenderPreset(preset)
-        current_project.SetRenderSettings({"TargetDir": path})
+        current_project.SetRenderSettings({"TargetDir": path}, {"CustomName": name})
         current_project.AddRenderJob()
     
     def get_render_preset(self) -> list:
@@ -386,7 +386,7 @@ def export_in_project(projectName):
                 for timeline in timelines:
                     try:
                         p.current_project.SetCurrentTimeline(timeline)
-                        p.add_render_job(itm[RenderPreset].CurrentText, output_folder)
+                        p.add_render_job(itm[RenderPreset].CurrentText, output_folder, timeline.GetName())
                     except:
                         error_dialog(TimelineErrorMsg)
             elif checkstate(CurrentTimeline):
